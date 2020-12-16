@@ -17,7 +17,7 @@ getRedirect=(url,referer,safe_in)=>{
 		redirectUrl+="&safe_in="+safe_in
 	}
 	countIt()
-	return {redirectUrl}
+	return {url}
 },
 encodedRedirect=(url,referer,safe_in)=>getRedirect(decodeURIComponent(url),referer,safe_in),
 isGoodLink=link=>{
