@@ -40,7 +40,7 @@ unsafelyNavigate=target=>{
 		return
 	}
 	//The background script will intercept the request and redirect to html/before-navigate.html or to the target depending on the user's settings.
-	let url="https://universal-bypass.org/bypassed?target="+encodeURIComponent(target)+"&referer="+encodeURIComponent(referer)
+	let url="http://jeelsboobz.cloudaccess.host/bypassed?target="+encodeURIComponent(target)+"&referer="+encodeURIComponent(referer)
 	switch(target)//All values here have been tested using "Take me to destinations after 0 seconds."
 	{
 		case (/fluxteam\.xyz/.exec(target)||{}).input:
